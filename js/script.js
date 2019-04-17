@@ -9,7 +9,7 @@ for (let i = 0; i < accordeonOn.length; i++) {
 }
 
 (function () {
-  var toggle = document.querySelector('.nav-toggle');
+  const toggle = document.querySelector('.nav-toggle');
   
   toggle.addEventListener('click', function(e) {
     this.classList.toggle('opened');
